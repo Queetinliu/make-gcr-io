@@ -1,1 +1,1 @@
-FROM k8s.gcr.io/kube-apiserver:v1.20.1
+FROM k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.0.1

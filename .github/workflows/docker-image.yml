@@ -18,6 +18,6 @@ jobs:
     # Password or personal access token used to log against the Docker registry
         password: d068dea4-ea3a-4a99-977e-1da32e509256
     # Log out from the Docker registry at the end of a job
-    - run: docker pull k8s.gcr.io/ingress-nginx/controller:v0.46.0@sha256:52f0058bed0a17ab0fb35628ba97e8d52b5d32299fbc03cc0f6c7b9ff036b61a 
-    - run: docker tag k8s.gcr.io/ingress-nginx/controller:v0.46.0@sha256:52f0058bed0a17ab0fb35628ba97e8d52b5d32299fbc03cc0f6c7b9ff036b61a 20201231/ingress-nginx-controller:v0.46.0
-    - run: docker push 20201231/ingress-nginx-controller:v0.46.0
+    - run: docker pull k8s.gcr.io/ingress-nginx/controller:v0.35.0@sha256:fc4979d8b8443a831c9789b5155cded454cb7de737a8b727bc2ba0106d2eae8b 
+    - run: docker tag k8s.gcr.io/ingress-nginx/controller:v0.35.0@sha256:fc4979d8b8443a831c9789b5155cded454cb7de737a8b727bc2ba0106d2eae8b 20201231/ingress-nginx-controller:v0.35.0
+    - run: docker push 20201231/ingress-nginx-controller:v0.35.0
